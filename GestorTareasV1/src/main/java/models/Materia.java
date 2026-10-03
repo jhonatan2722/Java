@@ -1,4 +1,4 @@
-package org.example;
+package models;
 
 
 public class Materia {
@@ -17,11 +17,6 @@ public class Materia {
 
     }
     public Materia(int id, String nombre){
-
-        if(nombre == null || nombre.trim().isEmpty()){
-
-            throw new IllegalArgumentException("El Campo _Nombre Materia_ Esta Vacio.");
-        }
 
         this.nombre = nombre;
         this.id = id;

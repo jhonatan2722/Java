@@ -1,7 +1,8 @@
 package org.example;
 
+import controller.Arranque;
 
-    public class Main{
+public class Main{
 
     public static void main(String[] args){
 

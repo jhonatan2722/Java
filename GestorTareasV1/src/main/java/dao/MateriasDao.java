@@ -1,5 +1,7 @@
-package org.example;
+package dao;
 
+import models.Materia;
+import psql.ConnectPostgres;
 import java.sql.*;
 import java.util.ArrayList;
 

@@ -1,11 +1,14 @@
-package org.example;
+package controller;
+
+import models.*;
+import dao.MateriasDao;
+import dao.TrabajosDao;
 
 import java.time.format.DateTimeParseException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.time.LocalDate;
-import java.sql.Date;
 
 public class Arranque{
 
@@ -29,7 +32,7 @@ public class Arranque{
 
               switch (opcion){
 
-                  case "1":
+                  case "1" :
                       agregarMateria();
                       break;
 

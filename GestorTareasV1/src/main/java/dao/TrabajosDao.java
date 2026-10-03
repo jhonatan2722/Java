@@ -1,9 +1,12 @@
-package org.example;
+package dao;
 
 
+import models.Trabajo;
+import psql.ConnectPostgres;
 import java.sql.*;
 import java.util.ArrayList;
 import java.time.LocalDate;
+
 public class TrabajosDao {
 
     public void guardarTrabajo(Trabajo trabajo, int id_materia){
